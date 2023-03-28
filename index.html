@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+ <header>
+        <h1>My Data</h1>
+
+        <section class="menu">
+            <uL class="menu-list">
+                <li>Home</li>
+                <li class="active">Services</li>
+                <li>About us</li>
+                <li>contact</li>
+
+            </uL>
+
+          
+        </section>
+    </header>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Real Data Services</p>
+            <p class="msg"> We just relesed our newest data service, and we are also
+                going on 20% off sales this weekend.This data service is the best and you do not
+                want to miss out on our hot deals,its affordables and a 4G network. Your satisfaction 
+                is our numbeer1 priority.
+            </p>
+            <button class="cta">Learn More</button>
+        </section>
+
+
+        <section class="right">
+            <div class="login">
+                <h2>Subscribe Here</h2>
+                <form id="f">
+                    <p>Fullname</p>
+                    <input type="text" name=""  placeholder="enter Fullname" required>
+                    <p>Email</p>
+                    <input type="Email" name="" placeholder="enter email" required>
+                    <input type="submit" onclick="myFunction()" name="" value="Submit">
+                </form>
+            </div>
+       
+        </section>
+    </section>
+
+    <footer>
+        <h3>copyright@debby  2023 , real data services</h3>
+    </footer>
+
+    <script>
+        var form = document.getElementById('f');
+      function myFunction(){
+        if(form.checkValidity()){
+            alert('You have successfully subscribed!')
+        }
+       
+      }
+       
+      
+    </script>
+
+    
+</body>
+</html>
